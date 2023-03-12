@@ -4,15 +4,11 @@ import { Inter } from '@next/font/google'
 
 import styles from '@/styles/Home.module.css'
 
-import CurrentEvents from '@/components/CurrentEvents'
-import NewsSection from '@/components/NewsSection'
-import ImageSection from '@/components/ImageSection'
-import EmailSection from '@/components/EmailSection'
-import DonationSection from '@/components/DonationSection'
+import MissionSection from '@/components/MissionSection'
+import ValuesSection from '@/components/ValuesSection'
+import MembersSection from '@/components/MembersSection'
 
-const inter = Inter({ subsets: ['latin'] })
-
-export default function Home() {
+export default function AboutUs() {
   return (
     <>
       <Head>
@@ -22,11 +18,10 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <CurrentEvents />
-        <NewsSection />
-        <ImageSection />
-        <EmailSection />
-        <DonationSection />
+        <MissionSection />
+        <ValuesSection />
+        <MembersSection />
+
       </main>
     </>
   )

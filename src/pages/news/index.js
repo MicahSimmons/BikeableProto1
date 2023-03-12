@@ -24,9 +24,6 @@ export default function Home() {
       <main className={styles.main}>
         <CurrentEvents />
         <NewsSection />
-        <ImageSection />
-        <EmailSection />
-        <DonationSection />
       </main>
     </>
   )

@@ -4,13 +4,7 @@ import { Inter } from '@next/font/google'
 
 import styles from '@/styles/Home.module.css'
 
-import CurrentEvents from '@/components/CurrentEvents'
-import NewsSection from '@/components/NewsSection'
-import ImageSection from '@/components/ImageSection'
-import EmailSection from '@/components/EmailSection'
-import DonationSection from '@/components/DonationSection'
-
-const inter = Inter({ subsets: ['latin'] })
+import PhotoCard from '@/components/photocard'
 
 export default function Home() {
   return (
@@ -22,11 +16,15 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
-        <CurrentEvents />
-        <NewsSection />
-        <ImageSection />
-        <EmailSection />
-        <DonationSection />
+        <div className="container-fluid row gx-5 gy-5">
+        <PhotoCard />
+        <PhotoCard />
+        <PhotoCard />
+        <PhotoCard />
+        <PhotoCard />
+        <PhotoCard />
+        </div>
+
       </main>
     </>
   )
