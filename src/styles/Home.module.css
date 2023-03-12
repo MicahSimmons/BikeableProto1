@@ -96,3 +96,13 @@
   color: black;
   background-color: darkgray;
 }
+
+.footer .address {
+  font-size: 0.75em;
+  font-style: italic;
+  text-align: right;
+}
+
+.footer_spacer {
+  height: 200px;
+}
