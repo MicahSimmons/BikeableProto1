@@ -1,15 +1,14 @@
+import styles from '@/styles/Home.module.css'
+import Banner from '@/components/banner'
 
-
-export default function PostDetail () {
+export default function PostDetail (params) {
     return <>
-    <div>
-        <div>
-            Banner Image goes here!
-        </div>
-        <h1>Post Title goes here</h1>
-        <h2>February 31, 2099</h2>
-        <div>
-            Explanatory Text!  Stuff happened.  People to see places to go!
+    <div className={styles.post}>
+        <Banner img={params.banner} title="" date=""/>
+        <h1>{params.title}</h1>
+        <h2>{params.date}</h2>
+        <hr />
+        <div dangerouslySetInnerHTML={{__html: params.body}}>
         </div>
     </div>
     </>
