@@ -6,7 +6,7 @@ import { GetTopList, GetNewsList, GetPost } from '@/api/sitedata'
 import styles from '@/styles/Home.module.css'
 
 import CurrentEvents from '@/components/CurrentEvents'
-import NewsSection from '@/components/NewsSection'
+import NewsSectionMini from '@/components/NewsSectionMini'
 import ImageSection from '@/components/ImageSection'
 import EmailSection from '@/components/EmailSection'
 import DonationSection from '@/components/DonationSection'
@@ -38,8 +38,14 @@ export default function Home(props) {
       </Head>
       <main className={styles.main}>
         <CurrentEvents posts={props.top}/>
-        <NewsSection posts={props.news}/>
-        <ImageSection />
+        <div className="row col-md-12">
+          <div className="col-md-8">
+          <NewsSectionMini posts={props.news}/>
+          </div>
+          <div className="col-md-4">
+          <ImageSection />
+          </div>
+        </div>
         <EmailSection />
         <DonationSection />
       </main>

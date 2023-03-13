@@ -1,5 +1,5 @@
-import '@/styles/globals.css'
 import 'bootstrap/dist/css/bootstrap.css'
+import '@/styles/globals.css'
 
 import Script from 'next/script'
 
@@ -10,10 +10,11 @@ import Footer from '@/components/Footer'
 
 export default function App({ Component, pageProps }) {
   return  <>
-  <Script src="/resources/bootstrap.bundle.min.js" crossOrigin="anonymous" />
   <Hero />
-  <NavBar />
+  <NavBar />  
+  <Script src="/resources/bootstrap.bundle.min.js" crossOrigin="anonymous" />
   <Component {...pageProps} />
   <Footer />
+
   </>;
 }

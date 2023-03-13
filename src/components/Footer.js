@@ -25,10 +25,11 @@ function AddressBlock () {
 
 export default function Footer () {
     return <>
+      <div className={styles.footer_spacer}> </div>
+
       <div className={"fixed-bottom row "+styles.footer}>
         <SocialBlock />
         <AddressBlock />
       </div>
-      <div className={styles.footer_spacer}> </div>
     </>
 }  

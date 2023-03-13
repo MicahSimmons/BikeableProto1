@@ -1,6 +1,6 @@
 
 import styles from '@/styles/Home.module.css'
-import NewsMini from '@/components/Banner'
+import NewsMini from '@/components/NewsMini'
 
 export default function NewsSection (params) {
     return <>
