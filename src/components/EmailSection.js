@@ -57,8 +57,6 @@ export default function EmailSection () {
           </button>
         </div>
         </div>
-
-        
       </div>
     </section>
       
