@@ -145,3 +145,36 @@
 .footer_spacer {
   height: 10vw;
 }
+
+.email_banner {
+  border: solid 5px coral;
+  border-radius: 30px;
+  color: black;
+  margin: 10px;
+  padding: 10px;
+
+  background-color: lime;
+  background-image: url('/assets/green_means_go.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  background-attachment: scroll;
+}
+
+.email_banner .body {
+  background: rgb(2,0,36);
+  background: radial-gradient(circle, rgba(2,0,36,0.5) 0%, rgba(9,9,121,0.5) 35%, rgba(0,212,255,0.5) 100%);
+  border-radius: 30px;
+  padding: 20px;
+  color: white;
+  text-shadow: 2px 2px #000000;
+
+}
+
+.email_banner h1 {
+  display: none;
+}
+
+.email_pop {
+  color: black;
+}

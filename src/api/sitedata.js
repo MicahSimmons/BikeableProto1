@@ -45,22 +45,20 @@ g_post_db.push({
 
 g_post_db.push({
     id: '22',
-    title: "Jennings Avenue Public Meeting",
-    date: "March 2, 6:00pm",
+    title: "Santa Rosa Taco Tuesday Ride",
+    date: "Every Tuesday, 5:45pm",
     tags: ["news"],
-    banner: '<img src="/assets/jennings.jpeg">',
-    teaser: 'Please attend this important community meeting for Jennings Avenue!',
+    banner: '<img src="/assets/bikeable_shade.jpeg">',
+    teaser: 'Bring the family and lets have some fun!!',
     body: '\
-    On Thursday, March 2 at 6:00pm, Santa Rosa and SMART will hold a community meeting to discuss options for the proposed crossing of the SMART tracks at Jennings Avenue, near Coddingtown mall. \
-    The city has already proposed an at-grade crossing that meets applicable safety standards, while SMART is trying to gain support for an overcrossing that it says is safer, but which is also significantly more costly and impactful to the surrounding neighborhood. (This article in the Press Democrat provides even more background.) \
-    If you can, please attend and express support for an affordable and effective solution that closes this key gap in Santa Rosa’s active transportation network. \
-    What: Support construction of a bike & ped crossing at Jennings Avenue \
-    When: Thursday, March 2, 6:00pm \
-    How: \
-    In-person at Helen Lehman Elementary School, 1700 Jennings Avenue \
-    Join via Zoom: https://sonomamarintrain-org.zoom.us/j/89903513421 \
-    Call in: 1-699-900-9128, meeting ID# 899 0351 3421 \
-    For more details, see the meeting notice here.    \
+    <p>Every Tuesday, join us along with North Bay Kruzers and 707 Bike Life at\
+    the Santa Rosa Taco Tuesday Ride.\
+    <ul> \
+    <li>Meet at Humbolt Park (1172 Humbolt Street)</li>\
+    <li>Pedals Up at 6:15</li>\
+    <li>Nothing wrong with Tacos on a Tuesday</li>\
+    <li>All riders welcome!</li>\
+    </ul> \
     '
 })
 
