@@ -16,7 +16,6 @@ export default function Members() {
       </Head>
       <main className={styles.main}>
         <MemberBlock />
-        <MemberBlock />
       </main>
     </>
   )
