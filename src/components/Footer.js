@@ -1,17 +1,18 @@
 import Image from "next/image"
+import Link from "next/link"
 import styles from '@/styles/Home.module.css'
 
 function SocialBlock () {
   return <div className="col-md-12 d-flex align-items-center justify-content-center">
     <div className={styles.icon}>
-      <a href="/" className="">
+      <Link href="/" className="">
         <Image
           src="/assets/f_logo_RGB-Blue_58.png"
           alt="Facebook"
           width="40"
           height="40"
           />
-      </a>
+      </Link>
     </div>
   </div>
 }

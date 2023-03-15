@@ -1,15 +1,15 @@
-
+import Link from "next/link"
 import styles from '@/styles/Home.module.css'
 
 function EventsDropdown () {
   return <>
     <li className="nav-item dropdown">
-      <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+      <Link className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
         News & Events
-      </a>
+      </Link>
       <ul className="dropdown-menu">
-        <li><a className="dropdown-item" href="/news">Latest Posts</a></li>
-        <li><a className="dropdown-item" href="/photos">Gallery</a></li>
+        <li><Link className="dropdown-item" href="/news">Latest Posts</Link></li>
+        <li><Link className="dropdown-item" href="/photos">Gallery</Link></li>
       </ul>
     </li>  
   </>
@@ -18,12 +18,12 @@ function EventsDropdown () {
 function AboutDropdown () {
   return <>
     <li className="nav-item dropdown">
-      <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+      <Link className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
         About Us
-      </a>
+      </Link>
       <ul className="dropdown-menu">
-        <li><a className="dropdown-item" href="/aboutus">Our Mission</a></li>
-        <li><a className="dropdown-item" href="/members">Our Stories</a></li>
+        <li><Link className="dropdown-item" href="/aboutus">Our Mission</Link></li>
+        <li><Link className="dropdown-item" href="/members">Our Stories</Link></li>
       </ul>
     </li>  
   </>
@@ -33,7 +33,7 @@ export default function NavBar () {
     return <>
       <nav className={"navbar navbar-expand-sm bg-light "+styles.nav}>
         <div className="container-fluid">
-          <a className="navbar-brand" href="/">Bikeable SR</a>
+          <Link className="navbar-brand" href="/">Bikeable SR</Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>

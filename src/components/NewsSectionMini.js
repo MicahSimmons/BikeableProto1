@@ -7,8 +7,9 @@ export default function NewsSection (params) {
     <section>
       <h1>News & Events</h1>
       { params.posts != undefined &&
-          params.posts.map((post) => 
+          params.posts.map((post, id) => 
             <NewsMini 
+              key={"newsmini_"+id}
               img={post.banner} 
               title={post.title} 
               date={post.date} 

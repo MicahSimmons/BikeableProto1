@@ -8,6 +8,10 @@
   padding: 10px;
 }
 
+.main h1 {
+  font-family: var(--font-section-title);
+}
+
 .hero {
   background-color: var(--hero-bg-color);
   color: --hero-fg-color;
@@ -37,6 +41,7 @@
   position: -webkit-sticky;
   position: sticky;
   top: 0;
+  font-family: var(--font-menu-item);
 }
 
 .section {
@@ -64,16 +69,19 @@
 
 .newsmini h1 {
   font-size: 2.0em;
+  font-family: var(--font-newsmini-caption);
 
 }
 
 .newsmini h2 {
   font-size: 1.0em;
+  font-family: var(--font-newsmini-subheading);
 }
 
 .newsmini article {
   font-size: 1.0em;
   font-style: italic;
+  font-family: var(--font-newsmini-body);
 }
 
 .newsmini .image img {
@@ -110,20 +118,24 @@
 
 .banner h1 {
   text-align: center;
+  font-family: var(--font-banner-caption);
 }
 
 .banner h2 {
   text-align: center;
+  font-family: var(--font-banner-subheading);
 }
 
 .banner .body {
   text-align: center;
+  font-family: var(--font-banner-body);
 }
 
 
 .post { 
   background-color: var(--post-bg-color);
   border: solid 3px var(--post-border-color);
+  color: var(--post-fg-color);
   border-radius: 30px;
   padding: 20px;
 }
@@ -155,6 +167,7 @@
   padding: 10px;
   color: var(--footer-fg-color);
   background-color: var(--footer-bg-color);
+  font-family: var(--font-footer-text);
 }
 
 .footer .address {
@@ -223,6 +236,10 @@
 
 .email_banner h1 {
   display: none;
+}
+
+.btn {
+  font-family: var(--font-button-text);
 }
 
 .email_pop {

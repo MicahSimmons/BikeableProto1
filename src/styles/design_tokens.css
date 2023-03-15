@@ -8,27 +8,29 @@
     --hero-quote-color: orange;
     --hero-quote-shadow: #664646;
   
-    --section-border-color: green;
-    --section-bg-color: navy;
+    --banner-border-color: rgb(63, 49, 92);
+    --banner-bg-color: rgb(183, 183, 207);
+    --banner-fg-color: rgb(35, 43, 62);
+  
+    --section-border-color: rgb(63, 49, 92);
+    --section-bg-color: rgb(70, 70, 136);
     --section-fg-color: white;
   
-    --newsmini-border-color: green;
-    --newsmini-bg-color: aqua;
+    --newsmini-border-color: rgb(63, 49, 92);
+    --newsmini-bg-color: rgb(231, 202, 122);
     --newsmini-fg-color: black;
     --newsmini-img-border: orange;
   
-    --banner-border-color: red;
-    --banner-bg-color: navy;
-    --banner-fg-color: white;
-  
-    --post-bg-color: darkolivegreen;
+ 
+    --post-bg-color: rgb(210, 210, 215);
+    --post-fg-color: rgb(35, 43, 62);
     --post-border-color: darkgrey;
   
     --footer-border-color: grey;
     --footer-bg-color: darkgrey;
     --footer-fg-color: black;
   
-    --donation-border-color:coral;
+    --donation-border-color:rgb(80, 179, 255);
     --donation-bg-color: lime;
     --donation-fg-color: black;
     --donation-body-default: rgb(2,0,36);
@@ -38,7 +40,7 @@
     --donation-body-fg-color: white;
     --donation-body-shadow: black;
   
-    --email-border-color:coral;
+    --email-border-color:rgb(28, 78, 59);
     --email-bg-color: lime;
     --email-fg-color: black;
     --email-body-default: rgb(2,0,36);
@@ -50,5 +52,16 @@
   
     --modal-fg-color: black;
   
-    --font-hero-quote: 'Tilt Warp', cursive
+    --font-hero-quote:          'Tilt Warp', cursive;
+    --font-section-title:       'Roboto', sans-serif;
+    --font-subheading:          'Roboto', sans-serif;
+    --font-banner-caption:      'Roboto', sans-serif;
+    --font-banner-subheading:   'Roboto', sans-serif;
+    --font-banner-body:         'Roboto', sans-serif;
+    --font-newsmini-caption:    'Roboto', sans-serif;
+    --font-newsmini-subheading: 'Roboto', sans-serif;
+    --font-newsmini-body:       'Playfair Display', serif;
+    --font-menu-item:           'Tilt Warp', cursive;
+    --font-button-text:         'Montserrat', sans-serif;
+    --font-footer-text:         'Playfair Display', serif;
   }

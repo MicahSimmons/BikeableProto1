@@ -52,7 +52,7 @@ export default function EmailSection () {
             </ul>
           </div>
           <div className="col-md-4 d-flex align-content-center">
-          <button type="button" class="btn btn-primary my-3" data-bs-toggle="modal" data-bs-target="#emailModal">
+          <button type="button" className="btn btn-primary my-3" data-bs-toggle="modal" data-bs-target="#emailModal">
           Subscribe to the Bikeable Newsletter
           </button>
         </div>
