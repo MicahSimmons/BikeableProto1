@@ -15,7 +15,7 @@ function LogoBlock() {
 }
 
 function QuoteBlock() {
-    return <div className="col-12 col-md-4 ms-auto me-3 h-100 d-flex align-items-end">
+    return <div className="col-12 col-md-6 ms-auto me-3 h-100 d-flex align-items-end">
         <div className={styles.quote}>
         Join Bikeable in Action for a Safe Santa Rosa Bike Network
         </div>

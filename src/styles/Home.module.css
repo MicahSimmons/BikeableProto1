@@ -29,12 +29,14 @@
   font-size: 3em;
   text-align: right;
   color: orange;
-  text-shadow: 1px 3px 0 #696969, 1px 8px 5px #aba8a8;
+  text-shadow: 1px 3px 0 #664646, 1px 8px 5px #664646;
 
 }
 
 .nav {
-  margin: 10px;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 
 .section {
