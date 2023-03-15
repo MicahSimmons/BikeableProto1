@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 import styles from '@/styles/Home.module.css'
 
-import MemberBlock from '@/components/memberblock'
+import MemberBlock from '@/components/MemberBlock'
 
 export default function Members() {
   return (

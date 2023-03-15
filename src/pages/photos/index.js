@@ -4,7 +4,7 @@ import { Inter } from '@next/font/google'
 
 import styles from '@/styles/Home.module.css'
 
-import PhotoCard from '@/components/photocard'
+import PhotoCard from '@/components/PhotoCard'
 
 export default function Home() {
   return (

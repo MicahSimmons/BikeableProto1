@@ -5,7 +5,7 @@ import { Inter } from '@next/font/google'
 import styles from '@/styles/Home.module.css'
 
 import { GetPost } from '@/api/sitedata'
-import PostDetail from '@/components/postdetail'
+import PostDetail from '@/components/PostDetail'
 
 export async function getServerSideProps({params}) {
   let post = GetPost(params.id);

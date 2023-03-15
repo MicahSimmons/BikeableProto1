@@ -4,7 +4,7 @@ import '@/styles/globals.css'
 import Script from 'next/script'
 
 import Hero from '@/components/Hero'
-import NavBar from '@/components/Navbar'
+import NavBar from '@/components/NavBar'
 import Footer from '@/components/Footer'
 
 import Head from 'next/head'
