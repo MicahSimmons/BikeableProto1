@@ -9,6 +9,7 @@ import Footer from '@/components/Footer'
 
 import Head from 'next/head'
 
+import '@/styles/design_tokens.css'
 
 export default function App({ Component, pageProps }) {
   return  <>

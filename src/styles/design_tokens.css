@@ -1,0 +1,54 @@
+:root {
+    --main-bg-color: grey;
+    --main-fg-color: white;
+    --hero-bg-color: red;
+  
+    --hero-fg-color: black;
+    --hero-logo-shadow: #f55;
+    --hero-quote-color: orange;
+    --hero-quote-shadow: #664646;
+  
+    --section-border-color: green;
+    --section-bg-color: navy;
+    --section-fg-color: white;
+  
+    --newsmini-border-color: green;
+    --newsmini-bg-color: aqua;
+    --newsmini-fg-color: black;
+    --newsmini-img-border: orange;
+  
+    --banner-border-color: red;
+    --banner-bg-color: navy;
+    --banner-fg-color: white;
+  
+    --post-bg-color: darkolivegreen;
+    --post-border-color: darkgrey;
+  
+    --footer-border-color: grey;
+    --footer-bg-color: darkgrey;
+    --footer-fg-color: black;
+  
+    --donation-border-color:coral;
+    --donation-bg-color: lime;
+    --donation-fg-color: black;
+    --donation-body-default: rgb(2,0,36);
+    --donation-grad-start: rgba(2,0,36,0.5);
+    --donation-grad-mid: rgba(9,9,121,0.5);
+    --donation-grad-end: rgba(0,212,255,0.5);
+    --donation-body-fg-color: white;
+    --donation-body-shadow: black;
+  
+    --email-border-color:coral;
+    --email-bg-color: lime;
+    --email-fg-color: black;
+    --email-body-default: rgb(2,0,36);
+    --email-grad-start: rgba(2,0,36,0.5);
+    --email-grad-mid: rgba(9,9,121,0.5);
+    --email-grad-end: rgba(0,212,255,0.5);
+    --email-body-fg-color: white;
+    --email-body-shadow: black;
+  
+    --modal-fg-color: black;
+  
+    --font-hero-quote: 'Tilt Warp', cursive
+  }

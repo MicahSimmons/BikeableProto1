@@ -1,16 +1,16 @@
 
 
 .main {
-  background-color: grey;
-  color: white;
+  background-color: var(--main-bg-color);
+  color: var(--main-fg-color);
   width: 100vw;
   top: 0;
   padding: 10px;
 }
 
 .hero {
-  background-color: red;
-  color: black;
+  background-color: var(--hero-bg-color);
+  color: --hero-fg-color;
   margin: 10px;
 }
 
@@ -20,16 +20,16 @@
 
 .logo img {
   width: 150px;
-  -webkit-filter: drop-shadow(5px 5px 5px #f55);
-  filter: drop-shadow(5px 5px 5px #f55);
+  -webkit-filter: drop-shadow(5px 5px 5px var(--hero-logo-shadow));
+  filter: drop-shadow(5px 5px 5px var(--hero-logo-shadow));
 }
 
 .quote {
-  font-family: 'Tilt Warp', cursive;
+  font-family: var(--font-hero-quote);
   font-size: 3em;
   text-align: right;
-  color: orange;
-  text-shadow: 1px 3px 0 #664646, 1px 8px 5px #664646;
+  color: var(--hero-quote-color);
+  text-shadow: 1px 3px 0 var(--hero-quote-shadow), 1px 8px 5px var(--hero-quote-shadow);
 
 }
 
@@ -40,25 +40,25 @@
 }
 
 .section {
-  border: solid 3px green;
+  border: solid 3px var(--section-border-color);
   border-radius: 30px;
-  background-color: navy;
-  color: white;
+  background-color: var(--section-bg-color);
+  color: var(--section-fg-color);
   margin: 10px;
   padding: 10px;
 }
 
 .newsmini {
-  border: solid 3px green;
+  border: solid 3px var(--newsmini-border-color);
   border-radius: 30px;
-  background-color: aqua;
-  color: black;
+  background-color: var(--newsmini-bg-color);
+  color: var(--newsmini-fg-color);
   margin: 10px;
   padding: 10px;
 }
 .newsmini .image {
   border-radius: 30px;
-  border-color:orange;
+  border-color:var(--newsmini-img-border);
 
 }
 
@@ -86,10 +86,10 @@
 }
 
 .banner {
-  border: solid 3px red;
+  border: solid 3px var(--banner-border-color);
   border-radius: 30px;
-  background-color: navy;
-  color: white;
+  background-color: var(--banner-bg-color);
+  color: var(--banner-fg-color);
   margin: 10px;
   padding: 10px;
 }
@@ -122,8 +122,8 @@
 
 
 .post { 
-  background-color: darkolivegreen;
-  border: solid 3px darkgrey;
+  background-color: var(--post-bg-color);
+  border: solid 3px var(--post-border-color);
   border-radius: 30px;
   padding: 20px;
 }
@@ -151,10 +151,10 @@
 }
 
 .footer {
-  border: solid 1px grey;
+  border: solid 1px var(--footer-border-color);
   padding: 10px;
-  color: black;
-  background-color: darkgray;
+  color: var(--footer-fg-color);
+  background-color: var(--footer-bg-color);
 }
 
 .footer .address {
@@ -168,13 +168,13 @@
 }
 
 .donation_banner {
-  border: solid 5px coral;
+  border: solid 5px var(--donation-border-color);
   border-radius: 30px;
-  color: black;
+  color: var(--donation-fg-color);
   margin: 10px;
   padding: 10px;
 
-  background-color: lime;
+  background-color: var(--donation-bg-color);
   background-image: url('/assets/vineyard.jpg');
   background-repeat: no-repeat;
   background-position: center;
@@ -183,12 +183,12 @@
 }
 
 .donation_banner .body {
-  background: rgb(2,0,36);
-  background: radial-gradient(circle, rgba(2,0,36,0.5) 0%, rgba(9,9,121,0.5) 35%, rgba(0,212,255,0.5) 100%);
+  background: var(--donation-body-default);
+  background: radial-gradient(circle, var(--donation-grad-start) 0%, var(--donation-grad-mid) 35%, var(--donation-grad-end) 100%);
   border-radius: 30px;
   padding: 20px;
-  color: white;
-  text-shadow: 2px 2px #000000;
+  color: var(--donation-body-fg-color);
+  text-shadow: 2px 2px var(--donation-body-shadow);
 
 }
 
@@ -197,13 +197,13 @@
 }
 
 .email_banner {
-  border: solid 5px coral;
+  border: solid 5px var(--email-border-color);
   border-radius: 30px;
-  color: black;
+  color: var(--email-fg-color);
   margin: 10px;
   padding: 10px;
 
-  background-color: lime;
+  background-color: var(--email-bg-color);
   background-image: url('/assets/green_means_go.jpg');
   background-repeat: no-repeat;
   background-position: center;
@@ -212,12 +212,12 @@
 }
 
 .email_banner .body {
-  background: rgb(2,0,36);
-  background: radial-gradient(circle, rgba(2,0,36,0.5) 0%, rgba(9,9,121,0.5) 35%, rgba(0,212,255,0.5) 100%);
+  background: var(--email-body-default);
+  background: radial-gradient(circle, var(--email-grad-start) 0%, var(--email-grad-mid) 35%, var(--email-grad-end) 100%);
   border-radius: 30px;
   padding: 20px;
-  color: white;
-  text-shadow: 2px 2px #000000;
+  color: var(--email-body-fg-color);
+  text-shadow: 2px 2px var(--email-body-shadow);
 
 }
 
@@ -226,5 +226,5 @@
 }
 
 .email_pop {
-  color: black;
+  color: var(--modal-fg-color);
 }
