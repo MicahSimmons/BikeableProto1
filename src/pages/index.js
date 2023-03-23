@@ -37,6 +37,7 @@ export default function Home(props) {
         <link rel="icon" href="/BSR_icon.ico" />
       </Head>
       <main className={styles.main}>
+        This is some content!
       </main>
     </>
   )

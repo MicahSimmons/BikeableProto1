@@ -12,6 +12,10 @@
   font-family: var(--font-section-title);
 }
 
+.body {
+  background-color:white;
+}
+
 .actionbar {
   background-color: var(--action-bg-color);
   color: var(--action-fg-color);
@@ -196,6 +200,7 @@
 }
 
 .footer {
+  height: 30vh;
   border: solid 1px var(--footer-border-color);
   padding: 10px;
   color: var(--footer-fg-color);

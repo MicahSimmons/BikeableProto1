@@ -1,6 +1,6 @@
 :root {
     --main-bg-color: white;
-    --main-fg-color: white;
+    --main-fg-color: black;
 
     --action-bg-color: darkblue;
     --action-fg-color: white;
@@ -32,9 +32,9 @@
     --post-fg-color: rgb(35, 43, 62);
     --post-border-color: darkgrey;
   
-    --footer-border-color: grey;
-    --footer-bg-color: darkgrey;
-    --footer-fg-color: black;
+    --footer-border-color: black;
+    --footer-bg-color: black;
+    --footer-fg-color: white;
   
     --donation-border-color:rgb(80, 179, 255);
     --donation-bg-color: lime;
