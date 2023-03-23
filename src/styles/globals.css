@@ -1,6 +1,6 @@
 :root {
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: darkgray;
+  --background-start-rgb: white;
   --background-end-rgb: 255, 255, 255;
 
 }
@@ -9,7 +9,7 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
-  background-color: grey;
+  background-color: white;
 }
 
 body {
@@ -21,3 +21,4 @@ a {
   color: inherit;
   text-decoration: none;
 }
+

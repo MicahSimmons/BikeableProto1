@@ -21,6 +21,19 @@
   color: var(--action-fg-color);
 }
 
+
+.spacer {
+  background-color: rbga(0,0,0,1);
+  color: rgba(0,0,0,0) !important;
+}
+
+
+.spacer * {
+  background-color: rbga(0,0,0,1);
+  color: rgba(0,0,0,0) !important;
+}
+
+
 .hero {
   background-color: var(--hero-bg-color);
   color: --hero-fg-color;
@@ -45,6 +58,17 @@
   text-shadow: 1px 3px 0 var(--hero-quote-shadow), 1px 8px 5px var(--hero-quote-shadow);
 
 }
+
+.navbar {
+  background-color: var(--navbar-bg-color);
+  color: var(--navbar-fg-color);
+}
+
+.navbar * {
+  background-color: var(--navbar-bg-color);
+  color: var(--navbar-fg-color);
+}
+
 
 .nav {
   position: -webkit-sticky;

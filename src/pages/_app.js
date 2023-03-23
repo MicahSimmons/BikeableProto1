@@ -15,7 +15,6 @@ import '@/styles/design_tokens.css'
 export default function App({ Component, pageProps }) {
   return  <>
   <ActionBar />
-  <Hero />
   <NavBar />  
   <Script src="/resources/bootstrap.bundle.min.js" crossOrigin="anonymous" />
   <Component {...pageProps} />

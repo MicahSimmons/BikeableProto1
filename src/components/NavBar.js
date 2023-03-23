@@ -1,6 +1,9 @@
 import Link from "next/link"
 import styles from '@/styles/Home.module.css'
 
+import LogoBlock from '@/components/Logo'
+
+
 function EventsDropdown () {
   return <>
     <li className="nav-item dropdown">
@@ -29,22 +32,39 @@ function AboutDropdown () {
   </>
 }
 
+function BrandBar () {
+  return <>
+    <div className="position-relative ">
+      <LogoBlock />
+    </div>
+  </>
+}
+
+function InnerBar () {
+  return <>
+        <div className={"navbar navbar-expand-sm flex-grow "}>
+          <div className="container-fluid row">
+            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span className="navbar-toggler-icon"></span>
+            </button>
+            <div className="collapse navbar-collapse" id="navbarNav">
+              <nav className="nav navbar-nav col-sm-10 ">
+                <EventsDropdown />
+                <AboutDropdown />
+              </nav>
+            </div>
+          </div>
+        </div>
+
+  </>
+}
+
 export default function NavBar () {
     return <>
-      <nav className={"navbar navbar-expand-sm bg-light "+styles.nav}>
-        <div className="container-fluid">
-          <Link className="navbar-brand" href="/">Bikeable SR</Link>
-        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span className="navbar-toggler-icon"></span>
-        </button>
-        <div className="collapse navbar-collapse" id="navbarNav">
-          <ul className="navbar-nav w-100 me-2 justify-content-end">
-            <EventsDropdown />
-            <AboutDropdown />
-          </ul>
-        </div>
-      </div>
-    </nav>
+      <div className={"container-fluid d-flex justify-content-start "+styles.navbar}>
+        <div className="mx-3 my-2"><BrandBar /></div>
+        <div className="flex-grow-1 align-self-end"><InnerBar /></div>
 
+      </div>
     </>
 }

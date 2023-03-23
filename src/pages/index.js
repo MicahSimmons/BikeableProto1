@@ -37,17 +37,6 @@ export default function Home(props) {
         <link rel="icon" href="/BSR_icon.ico" />
       </Head>
       <main className={styles.main}>
-        <CurrentEvents posts={props.top}/>
-        <div className="row col-md-12">
-          <div className="col-md-8">
-          <NewsSectionMini posts={props.news}/>
-          </div>
-          <div className="col-md-4">
-          <ImageSection />
-          </div>
-        </div>
-        <EmailSection />
-        <DonationSection />
       </main>
     </>
   )

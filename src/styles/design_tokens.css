@@ -1,9 +1,12 @@
 :root {
-    --main-bg-color: grey;
+    --main-bg-color: white;
     --main-fg-color: white;
 
     --action-bg-color: darkblue;
     --action-fg-color: white;
+
+    --navbar-bg-color: white;
+    --navbar-fg-color: black;
 
     --hero-bg-color: red;
     --hero-fg-color: black;
