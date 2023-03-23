@@ -3,7 +3,7 @@ import styles from '@/styles/Home.module.css'
 import Image from 'next/image'
 
 function EmailModal () {
-  return <div className={"modal "+styles.email_pop} tabindex="-1" id="emailModal">
+  return <div className={"modal "+styles.email_pop} tabIndex="-1" id="emailModal">
   <div className="modal-dialog">
     <div className="modal-content">
       <div className="modal-header">
