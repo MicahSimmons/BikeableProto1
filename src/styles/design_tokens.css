@@ -1,8 +1,11 @@
 :root {
     --main-bg-color: grey;
     --main-fg-color: white;
+
+    --action-bg-color: darkblue;
+    --action-fg-color: white;
+
     --hero-bg-color: red;
-  
     --hero-fg-color: black;
     --hero-logo-shadow: #f55;
     --hero-quote-color: orange;

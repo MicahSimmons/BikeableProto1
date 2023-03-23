@@ -12,6 +12,15 @@
   font-family: var(--font-section-title);
 }
 
+.actionbar {
+  background-color: var(--action-bg-color);
+  color: var(--action-fg-color);
+}
+
+.actionbar a {
+  color: var(--action-fg-color);
+}
+
 .hero {
   background-color: var(--hero-bg-color);
   color: --hero-fg-color;
